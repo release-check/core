@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/rc-core",
+  "crates/rc-worker",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/release-check/core"
